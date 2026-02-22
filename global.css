@@ -1,0 +1,35 @@
+@import url(./fonts.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', cursive;
+    background-color: #F5F7FA;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1540px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto ;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

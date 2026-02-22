@@ -1,0 +1,223 @@
+
+.main1-sec-1 div ul {
+    display: flex;
+    justify-content: center;
+}
+
+.main1-sec-1 div ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+.main1-sec-1 div ul li {
+    color:#222834;
+    transition: 0.3s;
+    &:hover{
+        background-color: #E5EDFF;
+        color: #3874FF;
+    }
+}
+
+.main1-sec-1 div ul  li a {
+    color:#222834;
+    transition: 0.3s;
+        &:hover{
+        background-color: #E5EDFF;
+        color: #3874FF;
+    }
+}
+
+
+.main1-sec-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0adf27;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px;
+}
+
+.main1-sec-2 div div {
+    padding-left:-30px;
+    padding-right: -30px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.main1-sec-2 div div div{
+    border-radius: 8px;
+    transition: 0.03s;
+    &:hover{
+    background-color: #F5F7FA;
+    }
+}
+
+.main1-sec-2 div div div a{
+    width: 150px;
+    color: #8A94AD;
+    transition: 0.03s;
+    padding-top: -20px;
+    &:hover{
+        color: #3874FF;
+    }
+
+}
+
+.main1-sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1-sec-2 div div{
+    background-color: #fff;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid ;
+    padding: 14px 24px;
+}
+
+.location-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m1-s2-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: 20px;
+}
+
+
+
+
+
+
+
+.main2-section1{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2-section1 nav{
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    display: flex;  
+    justify-content: space-between;
+    gap: 10px ;
+}
+
+.main2-section1 nav div{
+    padding: 6px 9px;
+    border-radius: 8px;
+    border: 2px solid #d7d9dd;
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+}
+
+
+.Sort-by{
+    border-radius: 8px;
+}
+
+.card{
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    font-size: cover;
+    position: center;
+}
+
+.wrapper-bar{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/hero-back.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bar{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.bar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar div a{
+    color: #8A94AD;
+}
+
+
+
+
+
+.main2-section2 {
+        background-attachment: fixed;
+}
+
+.main2-section2 div {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    
+}
+
+
+
+.main2-section2 div div {
+    width: 348px;
+    height: 464px;
+    overflow: hidden;
+
+}
+
+.wrapper{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
